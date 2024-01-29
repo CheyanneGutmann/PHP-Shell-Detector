@@ -1,5 +1,5 @@
-function init() {
-	$("#loader").hide();
+function*init() {
+	$(" loader").hide();
   $("dt").live('click', function() {
     var text = $(this).children(".plus");
     if (text.length) {
@@ -54,3 +54,4 @@ function init() {
   })*/
 }
 $(document).ready(init);
+ 
